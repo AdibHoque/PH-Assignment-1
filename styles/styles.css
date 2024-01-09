@@ -1,0 +1,412 @@
+.banner {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+.banner-image {
+width: 1200px;
+height: 500px;
+border-radius: 16px;
+filter: brightness(50%);
+}
+
+.banner-greeting {
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+  }
+.banner-title {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+  }
+
+  .discount-title {
+    color: #F00;
+   text-align: center;
+   font-family: Inter;
+   font-size: 88px;
+   font-weight: 700;
+   line-height: normal
+  }
+  .discount-description {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .discount-category {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .discount-image {
+    width: 802.9px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .midnight-party {
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .midnight-image {
+    width: 1200px;
+    height: 500px;
+    border-radius: 16px;
+    filter: brightness(50%);
+    position: absolute;
+    }
+.midnight-text {
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+position: absolute;
+margin-top: 86px;
+margin-left: 106px;
+}
+.midnight-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    position: absolute;
+    margin-top: 286px;
+    margin-left: 106px;
+}
+.midnight-join {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 376px;
+    margin-left: 138px;
+}
+.partylink {
+ text-decoration: none;
+ color: #FFF;
+}
+.partylink:hover {
+    color: #F00;
+   }
+   .midnight-image2 {
+    width: 319px;
+    height: 464px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 778px;
+    }
+.extra-space {
+    height: 600px;
+}
+.joinnow-box {
+    width: 1200px;
+    height: 400px;
+    text-align: center;
+    background: #FFEEEE;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    }
+.joinnow-content {
+    padding-top: 40px;
+}
+.joinnow-normal {
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 10px;
+text-transform: capitalize;
+}
+.joinnow-red {
+    color: #F00;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 10px;
+text-transform: capitalize;
+}
+
+.joinnow-button {
+    color: #FFF;
+    background-color: #F00;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.joinnow-button:hover {
+    color: black;
+    border: 2px solid black;
+}
+.comingsoon {
+    width: 1200px;
+    height: 500px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.comingsoon-title {
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+}
+.comingsoon-secondary-title {
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+}
+.comingsoon-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.comingsoon-circle {
+    width: 364.844px;
+height: 364.844px;
+border: 20px solid white;
+border-radius: 50%;
+box-shadow: 0 0 0 10px #F00;
+}
+
+.comingsoon-2024 {
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+}
+
+.comingsoon-hny {
+    width: 140px;
+height: 140px;
+}
+.comingsoon-center, .comingsoon-left, .comingsoon-right {
+ margin: 10px 35px;
+}
+.holidaysale-text-container {
+    text-align: center;
+    margin: 0 60px;
+}
+.holidaysale-title {
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-top: 50px;
+margin-bottom: 5px;
+}
+.holidaysale-discount {
+    color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+.holidaysale-discount-red {
+    color: #F00;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+.holidaysale-image-container {
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 1200px;
+    height: 500px;
+}
+.holiday-image-1 {
+    width: 429px;
+height: 433px;
+position: absolute;
+margin-left: 770px;
+}
+.holiday-image-discount {
+position: absolute;
+margin-left: 625px;
+margin-top: 70px;
+}
+.holiday-image-2 {
+    width: 1200px;
+    height: 200px;
+    margin-top: 433px;
+position: absolute;
+}
+.holiday-image-3 {
+position: absolute;
+margin-left: 50px;
+margin-top: 100px;
+width: 550px;
+height: 450px;
+}
+.extra-space2 {
+    height:200px;
+}
+
+.gifts-texts {
+    margin-left: 50px;
+    padding-right: 400px;
+}
+.gifts-images {
+    display: block;
+}
+.gifts-title {
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 5px;
+}
+.gifts-secondary-title {
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.products {
+    width: 424px;
+    height: 450px;
+}
+.products-1 {
+    margin-left: 50px;
+    width: 424px;
+    height: 450px;
+}
+
+.newsletter {
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+    background: #FFEEEE;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    }
+.newsletter-image {
+    margin-top: 65px;
+}
+.newsletter-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 100px;
+}
+.newsletter-input {
+    width: 30%;
+    height: 30px;
+    border-radius: 50px 0 0 50px;
+    padding: 10px;
+    border: none;
+    padding-right: 0px;
+}
+.newsletter-submit {
+    width: 10%;
+    height: 50px;
+    border-radius: 0px 50px 50px 0;
+    background-color: #F00;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.newsletter-submit:hover {
+    border-radius: 0px 50px 50px 0;
+    background-color: #F00;
+    color: black;
+    padding: 10px;
+}
+
+footer {
+    height: 500px;
+    width: 100%;
+    background-color: #070211;
+}
+.address-container {
+    padding-top: 60px;
+    position: relative;
+}
+.address {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+}
+.call {
+    position: absolute;
+    left: 1050px;
+    top: 80px;
+}
+.website {
+    position: absolute;
+    left: 1050px;
+    top: 125px;
+}
+hr {
+    border-color: rgba(255, 255, 255, 0.15);    ;
+    width: 1200px;
+    margin-top: 50px;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.logo {
+    padding: 5px;
+}
+/* Finally Done! */
+/* Looks good in full screen of pc only */
