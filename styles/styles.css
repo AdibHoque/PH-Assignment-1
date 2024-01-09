@@ -291,7 +291,9 @@ height: 450px;
     padding-right: 400px;
 }
 .gifts-images {
-    display: block;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 .gifts-title {
     color: #F00;
@@ -310,14 +312,8 @@ margin-bottom: 10px;
 }
 .products {
     width: 424px;
-    height: 450px;
-}
-.products-1 {
-    margin-left: 50px;
-    width: 424px;
-    height: 450px;
-}
-
+    height: 450px; }
+    
 .newsletter {
     width: 1200px;
     height: 500px;
